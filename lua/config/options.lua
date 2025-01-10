@@ -1,5 +1,22 @@
 local opt = vim.o
 
+opt.mouse = ""
 opt.number = true
 opt.relativenumber = true
-
+opt.conceallevel = 3
+opt.hidden = true
+opt.expandtab = true
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
+opt.smartindent = true
+opt.errorbells = false
+opt.splitbelow = true
+opt.splitright = true
+opt.swapfile = false
+opt.undofile = true
+opt.undodir = os.getenv "HOME" .. "/.cache/nvim/undodir"
+opt.hlsearch = false
+opt.incsearch = true
+opt.ignorecase = true
+opt.smartcase = true
