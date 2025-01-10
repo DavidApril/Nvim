@@ -1,5 +1,5 @@
 return {
-  "L3MON3D3/LuaSnip",
+  "L3MON4D3/LuaSnip",
   version = "v2.*",
   main = "config.plugins.luasnip",
   config = true,
