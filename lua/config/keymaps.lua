@@ -44,6 +44,9 @@ keymap.set("n", "N", "'nN'[v:searchforward].'zv'", { expr = true, desc = "Prev S
 keymap.set("x", "N", "'nN'[v:searchforward]", { expr = true, desc = "Prev Search Result" })
 keymap.set("o", "N", "'nN'[v:searchforward]", { expr = true, desc = "Prev Search Result" })
 
+-- Select all
+keymap.set("n", "<C-a>", "gg<S-v>G", { desc = "Select all" })
+
 -- New file
 keymap.set("n", "<leader>fn", "<cmd>enew<cr>", { desc = "New File" })
 
