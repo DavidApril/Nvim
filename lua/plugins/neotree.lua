@@ -51,6 +51,11 @@ return {
     sources = { "filesystem", "buffers", "git_status" },
     open_files_do_not_replace_types = { "terminal", "Trouble", "trouble", "qf", "Outline" },
     filesystem = {
+      filtered_items = {
+        visible = true,
+        hide_dotfile = false,
+        hide_gitignored = true,
+      },
       bind_to_cwd = false,
       follow_current_file = { enabled = true },
       use_libuv_file_watcher = true,
